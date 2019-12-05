@@ -5,9 +5,21 @@
 <br />
 @if (@Model.gifResult.data.ToList().Count > 0 && @Model.jokeResult.results.ToList().Count > 0)
 {
-    <h3>Image Link: <a href="@Model.gifResult.data.ToList()[0].embed_url" target="_blank">CLICK</a></h3>
+    <h3>FUN Image Link: <a href="@Model.gifResult.data.ToList()[0].embed_url" target="_blank">CLICK</a></h3>
     <p>@Model.gifResult.data.ToList()[0].embed_url</p>
     <h3>Joke: @Model.jokeResult.results.ToList()[0].joke"</h3>
+
+}
+else if (@Model.gifResult.data.ToList().Count < 1 && @Model.jokeResult.results.ToList().Count > 0)
+{
+    <h3>No GIF Image found with your keyword!</h3>
+    <h3>Joke: @Model.jokeResult.results.ToList()[0].joke"</h3>
+}
+else if (@Model.gifResult.data.ToList().Count > 0 && @Model.jokeResult.results.ToList().Count < 1)
+{
+    <h3>FUN Image Link: <a href="@Model.gifResult.data.ToList()[0].embed_url" target="_blank">CLICK</a></h3>
+    <p>@Model.gifResult.data.ToList()[0].embed_url</p>
+    <h3>No JOKE found with your keyword!</h3>
 }
 else
 {

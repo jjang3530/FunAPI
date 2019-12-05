@@ -13,8 +13,7 @@ using Microsoft.EntityFrameworkCore;
 using Jay_A4_FunAPI.Data;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using Giphy.Libs.Giphy;
-using Giphy.Libs.Services;
+using Jay_A4_FunAPI.Services;
 
 namespace Jay_A4_FunAPI
 {

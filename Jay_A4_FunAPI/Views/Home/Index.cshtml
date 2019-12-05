@@ -8,18 +8,12 @@
 
 @if (SignInManager.IsSignedIn(User))
 {
-    <h4>Search FUN GIF Image</h4>
+    <h4>Search FUN GIF Image and Joke</h4>
     <form class-"form-inline" action="@Url.Action("SearchResults")" method="post">
         <input style="width: 100%" ; margin-left:auto;margin-right:auto;border:groove;height:40px;" class="form-control"
                id="inputdefault" autofocus="autofocus" type="text" name="gifsearch" placeholder="Keyword" required />
         <button type="submit" style="height:40px;margin-top:10px;" class="btn btn-success">Search</button><br />
     </form>
-    @*<br />
-    <form class-"form-inline" action="@Url.Action("JokeResults")" method="post">
-        <input style="width: 100%" ; margin-left:auto;margin-right:auto;border:groove;height:40px;" class="form-control"
-               id="inputdefault" autofocus="autofocus" type="text" name="jokesearch" placeholder="Keyword" required />
-        <button type="submit" style="height:40px;margin-top:10px;" class="btn btn-success">Search</button><br />
-    </form>*@
 }
 else
 {

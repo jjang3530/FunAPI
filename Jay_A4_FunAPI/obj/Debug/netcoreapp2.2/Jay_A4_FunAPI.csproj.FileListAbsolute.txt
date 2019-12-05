@@ -31,8 +31,6 @@ C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Ja
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Jay_A4_FunAPI.pdb
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Jay_A4_FunAPI.csproj.CopyComplete
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\bin\Debug\netcoreapp2.2\credentials.json
-C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\bin\Debug\netcoreapp2.2\Giphy.Libs.dll
-C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\bin\Debug\netcoreapp2.2\Giphy.Libs.pdb
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\AccessDenied.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ConfirmEmail.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Account\ExternalLogin.g.cshtml.cs
@@ -66,5 +64,4 @@ C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Ra
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\Error.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
-C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\JokeResults.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\SearchResults.g.cshtml.cs

@@ -4720,19 +4720,6 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XDocument.dll": {}
         }
-      },
-      "Giphy.Libs/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v2.0",
-        "dependencies": {
-          "Newtonsoft.JSON": "10.0.3"
-        },
-        "compile": {
-          "bin/placeholder/Giphy.Libs.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/Giphy.Libs.dll": {}
-        }
       }
     }
   },
@@ -12938,16 +12925,10 @@
         "system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xpath.xdocument.nuspec"
       ]
-    },
-    "Giphy.Libs/1.0.0": {
-      "type": "project",
-      "path": "../Giphy.Libs/Giphy.Libs.csproj",
-      "msbuildProject": "../Giphy.Libs/Giphy.Libs.csproj"
     }
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.2": [
-      "Giphy.Libs >= 1.0.0",
       "Microsoft.AspNetCore.App >= 2.2.0",
       "Microsoft.AspNetCore.Authentication.Google >= 2.2.2",
       "Microsoft.AspNetCore.Razor.Design >= 2.2.0",
@@ -12987,11 +12968,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
-          "projectReferences": {
-            "C:\\Users\\Jay\\source\\repos\\Jay_A4_FunAPI\\Giphy.Libs\\Giphy.Libs.csproj": {
-              "projectPath": "C:\\Users\\Jay\\source\\repos\\Jay_A4_FunAPI\\Giphy.Libs\\Giphy.Libs.csproj"
-            }
-          }
+          "projectReferences": {}
         }
       },
       "warningProperties": {

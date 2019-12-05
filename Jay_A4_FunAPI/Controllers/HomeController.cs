@@ -1,13 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Diagnostics;
-using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Jay_A4_FunAPI.Models;
-using Giphy.Libs.Models;
-using Giphy.Libs.Services;
+using Jay_A4_FunAPI.Services;
 using System.Net.Http.Headers;
 using Newtonsoft.Json;
 
