@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
-using Jay_A4_FunAPI.Models;
-
-namespace Jay_A4_FunAPI.Models
+﻿namespace Jay_A4_FunAPI.Models
 {
     public class MergeModel
     {

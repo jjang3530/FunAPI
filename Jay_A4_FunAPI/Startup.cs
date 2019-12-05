@@ -37,8 +37,12 @@ namespace Jay_A4_FunAPI
             });
 
             services.AddDbContext<ApplicationDbContext>(options =>
-                options.UseSqlServer(
-                    Configuration.GetConnectionString("DefaultConnection")));
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
+
+            services.AddDbContext<FunContext>(options =>
+                 options.UseSqlServer(Configuration.GetConnectionString("Jay_A4_FunAPIContext")));
+
+
             services.AddDefaultIdentity<IdentityUser>()
                 .AddDefaultUI(UIFramework.Bootstrap4)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
