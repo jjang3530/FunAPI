@@ -1,0 +1,31 @@
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+
+@if (SignInManager.IsSignedIn(User))
+{
+    <h4>Search FUN GIF Image</h4>
+    <form class-"form-inline" action="@Url.Action("SearchResults")" method="post">
+        <input style="width: 100%" ; margin-left:auto;margin-right:auto;border:groove;height:40px;" class="form-control"
+               id="inputdefault" autofocus="autofocus" type="text" name="gifsearch" placeholder="Keyword" required />
+        <button type="submit" style="height:40px;margin-top:10px;" class="btn btn-success">Search</button><br />
+    </form>
+    @*<br />
+    <form class-"form-inline" action="@Url.Action("JokeResults")" method="post">
+        <input style="width: 100%" ; margin-left:auto;margin-right:auto;border:groove;height:40px;" class="form-control"
+               id="inputdefault" autofocus="autofocus" type="text" name="jokesearch" placeholder="Keyword" required />
+        <button type="submit" style="height:40px;margin-top:10px;" class="btn btn-success">Search</button><br />
+    </form>*@
+}
+else
+{
+    <div class="text-center">
+        <h1 class="display-3">Welcome to Fun API</h1><br />
+        <img src="~/Images/welcome.gif" alt="Welcome Image" /><br />
+        <p style="color: darkblue; font-size: 18px">Please login to use service</p>
+    </div>
+}

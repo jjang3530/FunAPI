@@ -1,0 +1,15 @@
+﻿@*@model Giphy.Libs.Models.GiphyModel*@
+@model Jay_A4_FunAPI.Models.MergeModel
+
+@{ Html.RenderPartial("Index");}
+<br />
+@if (@Model.gifResult.data.ToList().Count > 0 && @Model.jokeResult.results.ToList().Count > 0)
+{
+    <h3>Image Link: <a href="@Model.gifResult.data.ToList()[0].embed_url" target="_blank">CLICK</a></h3>
+    <p>@Model.gifResult.data.ToList()[0].embed_url</p>
+    <h3>Joke: @Model.jokeResult.results.ToList()[0].joke"</h3>
+}
+else
+{
+    <h3>No result found with your keyword! Change Keyword!</h3>
+}

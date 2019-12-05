@@ -1,0 +1,11 @@
+﻿@model Jay_A4_FunAPI.Models.JokeModel
+@{ Html.RenderPartial("Index");}
+<br />
+@if (@Model.results.ToList().Count > 0)
+{
+    <h3>Joke: @Model.results.ToList()[0].joke"</h3>
+}
+else
+{
+    <h3>No Joke found with your keyword! Change Keyword!</h3>
+}
