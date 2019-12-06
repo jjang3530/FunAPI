@@ -16,7 +16,6 @@ C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Ja
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Jay_A4_FunAPI.RazorCoreGenerate.cache
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewStart.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.g.cshtml.cs
-C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.g.cshtml.cs
@@ -65,3 +64,8 @@ C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Ra
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ValidationScriptsPartial.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Areas\Identity\Pages\_ViewImports.g.cshtml.cs
 C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\SearchResults.g.cshtml.cs
+C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\FunIndex.g.cshtml.cs
+C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\FunDetails.g.cshtml.cs
+C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\FunCreate.g.cshtml.cs
+C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\FunDelete.g.cshtml.cs
+C:\Users\Jay\source\repos\Jay_A4_FunAPI\Jay_A4_FunAPI\obj\Debug\netcoreapp2.2\Razor\Views\Home\FunEdit.g.cshtml.cs

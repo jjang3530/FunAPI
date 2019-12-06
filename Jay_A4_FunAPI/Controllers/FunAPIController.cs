@@ -12,11 +12,11 @@ namespace Jay_A4_FunAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class FunController : ControllerBase
+    public class FunAPIController : ControllerBase
     {
         private readonly FunContext _context;
 
-        public FunController(FunContext context)
+        public FunAPIController(FunContext context)
         {
             _context = context;
         }

@@ -1,5 +1,4 @@
-﻿@*@model Giphy.Libs.Models.GiphyModel*@
-@model Jay_A4_FunAPI.Models.MergeModel
+﻿@model Jay_A4_FunAPI.Models.MergeModel
 
 @{ Html.RenderPartial("Index");}
 <br />
@@ -8,18 +7,37 @@
     <h3>FUN Image Link: <a href="@Model.gifResult.data.ToList()[0].embed_url" target="_blank">CLICK</a></h3>
     <p>@Model.gifResult.data.ToList()[0].embed_url</p>
     <h3>Joke: @Model.jokeResult.results.ToList()[0].joke"</h3>
+    <br />
+
+    <form class-"form-inline" action="/Home/FunCreate" method="post">
+        <input type="hidden" name="SaveDate" value="@DateTime.Now" />
+        <input type="hidden" name="GifImageLink" value="@Model.gifResult.data.ToList()[0].embed_url" />
+        <input type="hidden" name="Joke" value="@Model.jokeResult.results.ToList()[0].joke" />
+        <button type="submit" style="height:40px;margin-top:10px;" class="btn btn-success">Save Fun GIF Link and Joke</button><br />
+    </form>
 
 }
 else if (@Model.gifResult.data.ToList().Count < 1 && @Model.jokeResult.results.ToList().Count > 0)
 {
     <h3>No GIF Image found with your keyword!</h3>
     <h3>Joke: @Model.jokeResult.results.ToList()[0].joke"</h3>
+
+    <form class-"form-inline" action="/Home/FunCreate" method="post">
+        <input type="hidden" name="SaveDate" value="@DateTime.Now" />
+        <input type="hidden" name="Joke" value="@Model.jokeResult.results.ToList()[0].joke" />
+        <button type="submit" style="height:40px;margin-top:10px;" class="btn btn-success">Save Fun Joke</button><br />
+    </form>
 }
 else if (@Model.gifResult.data.ToList().Count > 0 && @Model.jokeResult.results.ToList().Count < 1)
 {
     <h3>FUN Image Link: <a href="@Model.gifResult.data.ToList()[0].embed_url" target="_blank">CLICK</a></h3>
     <p>@Model.gifResult.data.ToList()[0].embed_url</p>
     <h3>No JOKE found with your keyword!</h3>
+    <form class-"form-inline" action="/Home/FunCreate" method="post">
+        <input type="hidden" name="SaveDate" value="@DateTime.Now" />
+        <input type="hidden" name="GifImageLink" value="@Model.gifResult.data.ToList()[0].embed_url" />
+        <button type="submit" style="height:40px;margin-top:10px;" class="btn btn-success">Save Fun GIF Link</button><br />
+    </form>
 }
 else
 {

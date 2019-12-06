@@ -1,0 +1,43 @@
+﻿@model Jay_A4_FunAPI.Models.FunModel
+
+@{
+    ViewData["Title"] = "FunCreate";
+}
+
+<h1>FunCreate</h1>
+
+<h4>FunModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="FunCreate">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="SaveDate" class="control-label"></label>
+                <input asp-for="SaveDate" class="form-control" />
+                <span asp-validation-for="SaveDate" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="GifImageLink" class="control-label"></label>
+                <input asp-for="GifImageLink" class="form-control" />
+                <span asp-validation-for="GifImageLink" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Joke" class="control-label"></label>
+                <input asp-for="Joke" class="form-control" />
+                <span asp-validation-for="Joke" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="funIndex">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

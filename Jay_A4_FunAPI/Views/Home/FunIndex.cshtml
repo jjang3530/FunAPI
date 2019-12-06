@@ -1,0 +1,49 @@
+﻿@model IEnumerable<Jay_A4_FunAPI.Models.FunModel>
+
+@{
+    ViewData["Title"] = "FunIndex";
+}
+
+<h1>My Fun Index</h1>
+
+<p>
+    <a asp-action="FunCreate">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @*@Html.DisplayNameFor(model => model.SaveDate)*@
+                Save Date
+            </th>
+            <th>
+                Gif Image Link
+                @*@Html.DisplayNameFor(model => model.GifImageLink)*@
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Joke)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.SaveDate)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GifImageLink)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Joke)
+            </td>
+            <td>
+                <a asp-action="FunEdit" asp-route-id="@item.FunId">Edit</a> |
+                <a asp-action="FunDetails" asp-route-id="@item.FunId">Details</a> |
+                <a asp-action="FunDelete" asp-route-id="@item.FunId">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
